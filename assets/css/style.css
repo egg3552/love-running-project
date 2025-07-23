@@ -1,3 +1,5 @@
+
+
 /* Import DM Serif Text font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
@@ -27,6 +29,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex; 
+    justify-content:space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -73,8 +78,22 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; 
+    top: 100%;
 }
 
+/* Nav Toggle */ 
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 /* Main content styles */
 main {
@@ -87,3 +106,4 @@ main {
 footer {
     background-color: orange;
 }
+
