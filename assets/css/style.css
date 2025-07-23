@@ -1,3 +1,6 @@
+/* Import DM Serif Text font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
 /* Override default browser styles */
 * {
     padding: 0;
@@ -11,6 +14,7 @@ body {
     flex-direction: column;
     /* This ensures the layout is vertical, stacking header, main, and footer */
     color: #3a3a3a;
+    font-family: 'DM Serif Text', serif;
 }
 
 /* Header styles */
