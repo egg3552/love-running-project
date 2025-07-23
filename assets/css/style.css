@@ -4,6 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* This ensures the layout is vertical, stacking header, main, and footer */
+    color: #3a3a3a;
+}
 
 /* Header styles */
 header {
@@ -13,6 +20,8 @@ header {
 /* Main content styles */
 main {
     background-color: lightblue;
+    /* Allows main to expand and fill available vertical space */
+    flex: 1 0 auto;
 }
 
 /* Footer styles */
