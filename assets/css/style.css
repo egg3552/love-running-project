@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* Page body styles: set up flex layout and base font */
 body {
     min-height: 100vh;
     display: flex;
@@ -18,6 +19,7 @@ body {
 }
 
 /* Header styles */
+/* Header styles: fixed, full width, with shadow */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
