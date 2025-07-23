@@ -22,6 +22,11 @@ header {
     background-color: lightcoral;
 }
 
+/* Logo styles */
+h1 {
+    font-family: 'DM Serif Text', serif;
+}
+
 /* Main content styles */
 main {
     background-color: lightblue;
