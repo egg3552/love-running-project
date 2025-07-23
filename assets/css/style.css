@@ -100,6 +100,7 @@ main {
     background-color: lightblue;
     /* Allows main to expand and fill available vertical space */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer styles */
