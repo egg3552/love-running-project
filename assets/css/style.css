@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 /* Media Query: desktops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     /* Example: Increase main content margin and logo size for large screens */
@@ -14,10 +15,6 @@
         text-decoration: underline;
     }
 }
-
-
-/* Import DM Serif Text font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 /* Override default browser styles */
 * {
