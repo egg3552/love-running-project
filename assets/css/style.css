@@ -14,9 +14,34 @@
         color: #e63946;
         text-decoration: underline;
     }
-
-    /* Style all icon elements inside the social networks list (applies to all screen sizes) */
 }
+
+/* Style all icon elements inside the social networks list (applies to all screen sizes) */
+#benefits hr {
+    border: none;
+    border-top: 1px solid #252525;
+    margin: 5px 0;
+}
+#benefits p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#benefits-physical .feature,
+#benefits-mental .feature {
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+#reasons > h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#reasons {
+    padding: 0 20px 40px 20px;
+    margin-bottom: 40px;
+}
+
+
 
 #social-networks i {
     font-size: 160%;
@@ -216,14 +241,6 @@ main {
 #cover-text {
     width: 300px;
     right: 50px;
-    
-}
-
-/* Hero section headings */
-h2 {
 
 }
 
-h3 {
-    
-}
