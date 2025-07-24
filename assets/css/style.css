@@ -125,10 +125,16 @@ nav {
 
 /* Main content styles */
 main {
-    background-color: lightblue;
+   
     /* Allows main to expand and fill available vertical space */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer styles */
