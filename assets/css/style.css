@@ -14,6 +14,14 @@
         color: #e63946;
         text-decoration: underline;
     }
+
+    /* Style all icon elements inside the social networks list (applies to all screen sizes) */
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Override default browser styles */
@@ -70,9 +78,16 @@ h1 {
     padding-left: 0;
 }
 
+
+
+/* Only apply margin-bottom to menu items, not social icons */
 #menu > li {
-    /* Add space between menu items */
     margin-bottom: 1em;
+}
+
+/* Ensure social icons are horizontal on all devices */
+#social-networks > li {
+    display: inline-block;
 }
 
 .active {
@@ -117,8 +132,12 @@ main {
 }
 
 /* Footer styles */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align:center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* Media Query: tablets and larger (768px and up) */
@@ -133,6 +152,7 @@ footer {
     }
 }
 
+
 #menu {
     display: flex;
 }
@@ -141,9 +161,18 @@ footer {
     padding-left: 1rem;
 }
 
-.nav-toggle-label {
-    display: none;
-
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
 
 #logo {
