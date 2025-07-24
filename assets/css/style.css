@@ -1,3 +1,19 @@
+/* Media Query: desktops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Example: Increase main content margin and logo size for large screens */
+    main {
+        margin-top: 100px;
+    }
+    #logo {
+        font-size: 250%;
+    }
+    /* Style menu links on hover for large screens */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+        color: #e63946;
+        text-decoration: underline;
+    }
+}
 
 
 /* Import DM Serif Text font from Google Fonts */
