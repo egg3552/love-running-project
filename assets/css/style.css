@@ -41,6 +41,14 @@ body {
     font-family: 'DM Serif Text', serif;
 }
 
+/* Logo styles */
+h1, h2, h3 {
+    font-family: 'DM Serif Text', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 
 /* Header styles: fixed, full width, with shadow */
 header {
@@ -60,14 +68,6 @@ header a {
     color: inherit;
 }
 
-/* Logo styles */
-h1 {
-    font-family: 'DM Serif Text', serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
 /* Navigation menu styles */
 
 #menu {
@@ -77,8 +77,6 @@ h1 {
     list-style: none;
     padding-left: 0;
 }
-
-
 
 /* Only apply margin-bottom to menu items, not social icons */
 #menu > li {
@@ -135,6 +133,23 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+
 }
 
 /* Footer styles */
@@ -191,4 +206,24 @@ main {
 
 main {
     margin-top:79px;
+}
+/* Main Content */
+
+main {
+    margin-top:79px;
+}
+
+#cover-text {
+    width: 300px;
+    right: 50px;
+    
+}
+
+/* Hero section headings */
+h2 {
+
+}
+
+h3 {
+    
 }
