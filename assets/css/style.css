@@ -241,6 +241,25 @@ main {
 #cover-text {
     width: 300px;
     right: 50px;
+}
 
+/* Circle background for cover section */
+#circle-cover-bg {
+    background-image: url("../images/reasons-image.webp");
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Benefits image container */
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
