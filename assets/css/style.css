@@ -89,6 +89,9 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
 
 /* Header styles: fixed, full width, with shadow */
 header {
