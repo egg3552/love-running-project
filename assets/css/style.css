@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 /* Media Query: desktops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    /* Example: Increase main content margin and logo size for large screens */
+    /* Example: Increase main con#benefits-physical,
+#benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    #benefits-physical > div,
+    #benefits-mental > div {
+        width: 100%;
+    }
+
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }logo size for large screens */
     main {
         margin-top: 100px;
     }
@@ -219,6 +234,25 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
+#benefits-physical
+#benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    #benefits-physical > div,
+    #benefits-mental > div {
+        width: 75%;
+    }
+
+    #benefits-mental > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+
 }
 
 #logo {
@@ -262,4 +296,33 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+/* Reasons section */
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
+    }
+}
+
 
