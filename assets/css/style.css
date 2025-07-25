@@ -29,8 +29,11 @@
         color: #e63946;
         text-decoration: underline;
     }
-}
 
+#photos {
+    column-count: 4;
+}
+}
 /* Style all icon elements inside the social networks list (applies to all screen sizes) */
 #benefits hr {
     border: none;
@@ -214,6 +217,17 @@ line-height: 1em;
     list-style-type: none;
 }
 
+@media screen and (mind-width: 576px) {}
+    #photos {
+Column-count: 2;
+column-gap: 0;
+    }
+
+    
+
+
+
+
 /* Media Query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -309,6 +323,11 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+#photos {
+    column-count: 3;
+}
+
 
 /* Reasons section */
 @media screen and (min-width: 1200px) {
