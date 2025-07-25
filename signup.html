@@ -2,59 +2,110 @@
 <html lang="en">
 
     <head>
+        <!-- Character encoding -->
         <meta charset="UTF-8">
+        <!-- Responsive viewport for mobile devices -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Sign up for Love Running Club in Dublin, Ireland.">
-        <meta name="keywords" content="love running, sign up, running club, Dublin, Ireland, join">
-        <title>Sign Up - Love Running</title>
+        <!-- Page description for search engines -->
+        <meta name="description" content="Love running. Club for runners in Dublin, Ireland. Urban running, trail running. Dublin docklands and Phoenix Park.">
+        <!-- Keywords for SEO -->
+        <meta name="keywords" content="love running, run, running club, runners, Ireland, Dublin, sport, exercise">
+
+        <!-- title -->
+        <title>Love Running - Sign Up</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <!-- Stylesheet -->
         <link rel="stylesheet" href="assets/css/style.css">
-        <script src="https://kit.fontawesome.com/ca5bbdb6cc.js" crossorigin="anonymous"></script>
+
     </head>
 
     <body>
+        <!-- Site header -->
         <header>
             <a href="index.html">
                 <h1 id="logo">Love Running</h1>
             </a>
+            <!-- Site navigation -->
             <input type="checkbox" id="nav-toggle" name="nav-toggle">
             <label for="nav-toggle" class="nav-toggle-label">
                 <i class="fa-solid fa-bars"></i>
             </label>
             <nav>
+                <!-- Navigation links list -->
                 <ul id="menu">
+                    <!-- Home link -->
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#" class="active">Sign Up</a></li>
+                    <!-- Gallery link -->
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <!-- Sign Up link -->
+                    <li><a href="signup.html">Sign Up</a></li>
                 </ul>
             </nav>
         </header>
 
+        <!-- Main content area -->
         <main>
             <section id="signup">
-                <h2>Sign Up for Love Running</h2>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="level">Running Level:</label>
-                    <select id="level" name="level">
-                        <option value="beginner">Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="advanced">Advanced</option>
-                    </select>
-                    <button type="submit">Join Now</button>
+                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" class="text-input" required>
+                    <br>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" class="text-input" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" class="text-input" required>
+                    <br>
+                    <div class="radio-buttons">
+                        <div>
+                            <input type="radio" id="road" name="running-preference" value="road" checked>
+                            <label for="road">Road</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="trail" name="running-preference" value="trail">
+                            <label for="trail">Trail</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="both" name="running-preference" value="both">
+                            <label for="both">Both</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="join-button">Let's Run!</button>
                 </form>
             </section>
         </main>
 
+        <!-- Site footer -->
         <footer>
             <ul id="social-networks">
-                <li><a href="http://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page(Opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-                <li><a href="http://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page(Opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href="http://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page(Opens in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                <li><a href="http://www.facebook.com/" target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Facebook page(Opens in a new tab)"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                </li>
+
+                <li>
+                    <a href="http://www.instagram.com/" target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Instagram page(Opens in a new tab)">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com/" target="_blank"
+                        rel="noopener"
+                        aria-label="Visit our Twitter page(Opens in a new tab)">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
+        <script src="https://kit.fontawesome.com/ca5bbdb6cc.js"
+            crossorigin="anonymous"></script>
     </body>
 
 </html>

@@ -355,3 +355,7 @@ main {
 #times h3 {
     color: #fff;
 }
+/* Hide elements visually */
+.hidden {
+    display: none !important;
+}
