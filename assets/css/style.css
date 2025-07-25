@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 /* Media Query: desktops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-    /* Example: Increase main con#benefits-physical,
+    /* Example: Increase main con#benefits-physical */
 #benefits-mental {
     display: flex;
     flex-direction: column;
@@ -324,5 +324,3 @@ main {
         align-self: flex-end;
     }
 }
-
-
