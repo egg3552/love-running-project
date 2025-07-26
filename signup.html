@@ -48,18 +48,25 @@
 
         <!-- Main content area -->
         <main>
+            <!-- Signup section for new users -->
             <section id="signup">
+                <!-- Signup form: posts data to Code Institute's formdump -->
                 <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <!-- Form heading with Font Awesome heartbeat icon -->
                     <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+                    <!-- First Name input -->
                     <label for="first-name">First Name:</label>
                     <input type="text" id="first-name" name="first-name" class="text-input" required>
                     <br>
+                    <!-- Last Name input -->
                     <label for="last-name">Last Name:</label>
                     <input type="text" id="last-name" name="last-name" class="text-input" required>
                     <br>
+                    <!-- Email Address input -->
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" name="email" class="text-input" required>
                     <br>
+                    <!-- Running preference radio buttons -->
                     <div class="radio-buttons">
                         <div>
                             <input type="radio" id="road" name="running-preference" value="road" checked>
@@ -74,6 +81,7 @@
                             <label for="both">Both</label>
                         </div>
                     </div>
+                    <!-- Submit button -->
                     <button type="submit" class="join-button">Let's Run!</button>
                 </form>
             </section>
